@@ -14,7 +14,7 @@ body {
     left: 0;
     right: 0;
     padding: 15px 0px 15px 0px;
-    margin: 0px 0px 30px 0px;
+    
 }
 
 .nav-button{
@@ -30,30 +30,57 @@ body {
 
 .form-wrapper{
     background-color: white;
-    padding: 5px 5px 5px 5px;
+    padding: 15px 25px 15px 25px;
     margin: 0 auto;
-    width: 30%;
+    margin-top: 140px;
+    border-style: inset;
+    border-width: 0px 3px 3px 0px;
+    border-color: #c5c4c5;
+    border-radius: 3px;
+    width: 25%;
     text-align: center;
 }
 
+.form-wrapper h1{
+    float: left;
+    font-size: 25px;
+}
+
 .top-input{
-    border: 3px inset rgb(218, 218, 218);
+    border-style: inset;
+    border-width: 2px 1px 1px 2px;
+    border-color: #c5c4c5;
     border-radius: 3px;
+    width: 95%;
+    color: #d0d1d0;
 }
 
 .bottom-input{
-    border: 3px inset rgb(218, 218, 218);
+    border-style: inset;
+    border-width: 1px 1px 2px 2px;
+    border-color: #c5c4c5;
     border-radius: 3px;
+    width: 95%;
+    color: #d0d1d0;
 }
 
 #submit-button{
     background-color: #0080ff;
-    border-radius: 5px;
+    border-radius: 3px;
     position: relative;
     margin: 0 auto;
     padding: 8px 16px 8px 16px;
     color: white;
     text-decoration: none;
-    width: 25%;
+    width: 100%;
+
+}
+
+.form-image{
+    object-fit: cover;
+    border-radius: 50px;
+    height: 35px; 
+    width: 35px; 
+    border-radius: 10px;
 
 }
